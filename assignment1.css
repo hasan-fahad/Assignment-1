@@ -1,9 +1,12 @@
 
+/* /* Font style */
 *{
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+    padding: 0;
 }
 
+/* Banner Styles */
 .banner{
     display: flex;
     position: absolute;
@@ -49,7 +52,8 @@
     color: #FFFFFF;
 }
 
-button{
+ /* Button style */
+.button{
     position: absolute;
     width: 160px;
     height: 64px;
@@ -64,3 +68,434 @@ button{
     color: #005FAC;
     padding: 20px 20px;
 }
+
+/* Failure styles */
+
+.my-failure{
+    display: flex;
+    position: absolute;
+    width: 1072px;
+    height: 723.3px;
+    left: 206px;
+    
+    
+    
+}
+
+.failure-image{
+    position: absolute;
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+}
+.failure{
+    position: absolute;
+    width: 288px;
+    height: 94px;
+    left: 862px;
+    top: 1170px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #151414;
+
+}
+
+.failure-description{
+    position: absolute;
+    width: 416px;
+    height: 104px;
+    left: 862px;
+    top: 1296px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #444343;
+}
+
+.reason-of-failure{
+    list-style: none; 
+    position: absolute;
+    width: 349px;
+    height: 26px;
+    left: 862px;
+    top: 1416px;
+}
+
+li{
+    margin-top: 10px;
+}
+.tick{
+    color: green;
+    
+    
+}
+
+/* My Plans styles */
+
+.my-plans{
+
+}
+
+.section-title{
+    position: absolute;
+    width: 179px;
+    height: 47px;
+    left: 765px;
+    top: 1792px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    text-align: center;
+    color: #151414;
+
+}
+
+.my-plans-info-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.my-plans-info-web{
+    position: absolute;
+    width: 92.96px;
+    height: 92.96px;
+    left: 294px;
+    top: 1895px;
+}
+
+
+.plan-title-web{
+    
+    position: absolute;
+    width: 270px;
+    height: 35px;
+    left: 230px;
+    top: 2011.96px;
+    
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #151414;
+    
+}
+
+.plan-description-web{
+    position: absolute;
+    width: 177px;
+    height: 29px;
+    left: 277px;
+    top: 2062.96px;
+
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #737272;
+}
+
+.my-plans-info-java{
+    position: absolute;
+    width: 92.96px;
+    height: 92.96px;
+    left: 631px;
+    top: 1892px;
+
+}
+.plan-title-java{
+    position: absolute;
+    width: 156px;
+    height: 35px;
+    left: 599px;
+    top: 2006px;
+
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #151414;
+
+}
+
+.plan-description-java{
+    position: absolute;
+    width: 181px;
+    height: 29px;
+    left: 586px;
+    top: 2057px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #737272;
+}
+
+.my-plans-info-smoke{
+    position: absolute;
+    width: 93px;
+    height: 93px;
+    left: 916px;
+    top: 1889px;
+}
+.plan-title-smoke{
+    position: absolute;
+    width: 218px;
+    height: 35px;
+    left: 853px;
+    top: 2006px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #151414;
+}
+
+.plan-description-smoke{
+    position: absolute;
+    width: 164px;
+    height: 29px;
+    left: 880px;
+    top: 2057px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #737272;
+}
+
+.my-plans-info-commerce{
+    position: absolute;
+    width: 92.96px;
+    height: 92.96px;
+    left: 1218px;
+    top: 1889px;
+}
+.plan-title-commerce{
+    position: absolute;
+    width: 174px;
+    height: 35px;
+    left: 1177px;
+    top: 2006px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #151414;
+}
+
+.plan-description-commerce{
+    position: absolute;
+    width: 214px;
+    height: 29px;
+    left: 1157px;
+    top: 2057px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #737272;
+}
+
+
+/* Gradient styles */
+
+.gradient{
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("images/gradient1.png");
+    
+    border-radius: 8px;
+    
+}
+
+.gradient-title{
+    position: absolute;
+    width: 459px;
+    height: 94px;
+    left: 294px;
+    top: 2280.96px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #FFFFFF;
+}
+
+.gradient-button{
+        
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2398.96px;
+    
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border:none;
+
+    color: #005FAC;
+
+}
+
+
+
+
+/* footer styles */
+.footer{
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2651.96px;
+
+    background: #151414;
+}
+.footer-title{
+    position: absolute;
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 2781.96px;
+
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+    color: #F8F8F8;
+
+}
+
+.footer-description{
+    position: absolute;
+width: 485px;
+height: 78px;
+left: 230px;
+top: 2850.96px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #FFFFFF;
+
+    }
+
+.footer-email{
+    display: flex;
+    position: absolute;
+    width: 184px;
+    height: 26px;
+    left: 230px;
+    top: 2952.96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    }
+
+.footer-phone-number{
+    position: absolute;
+    width: 186px;
+    height: 26px;
+    left: 230px;
+    top: 2994.96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    }
+    .facebook{
+        position: absolute;
+        width: 47px;
+        height: 46px;
+        left: 230px;
+        top: 3052.96px;
+    }
+    .twitter{
+        position: absolute;
+        width: 47px;
+        height: 46px;
+        left: 294px;
+        top: 3052.96px;;
+
+    }
+    .youtube{
+        position: absolute;
+        width: 46px;
+        height: 46px;
+        left: 359px;
+        top: 3052.96px;
+    }
+    .subscribe{
+        position: absolute;
+        width: 123px;
+        height: 29px;
+        left: 1046px;
+        top: 2781.96px;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 29px;
+
+        color: #FFFFFF;
+
+    }
+
+    .email{
+        
+        position: absolute;
+        width: 325px;
+        height: 64px;
+        left: 1046px;
+        top: 2841.96px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        background: black;
+        color: #F3F3F3;
+        border-color: white;
+        text-align:center;
+
+        }
+    .sub{
+        position: absolute;
+        width: 170.11px;
+        height: 64px;
+        left: 1046px;
+        top: 2921.96px;
+        
+        background: #005FAC;
+        border-radius: 8px;
+        color:white;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+    }
